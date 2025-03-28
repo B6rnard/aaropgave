@@ -1,1 +1,1 @@
-# smokey the bear
+# Synopsis
