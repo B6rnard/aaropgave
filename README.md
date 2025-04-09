@@ -21,7 +21,7 @@ Projektet analyserer API’ens datastruktur og udvikler et værktøj eller scrip
 
 ## Programbeskrivelse
 
-## rutediagramme(r)
+## rutediagram(mer)
 
 ## Rolle-fordeling
 
