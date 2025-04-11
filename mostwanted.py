@@ -8,6 +8,6 @@ data = json.loads(response.content)
 
 print(f"Total results: {data['total']}")
 
-#print("\nTitles of the first 5 wanted individuals:")
+print("\nurls of the first 10 wanted individuals:")
 for item in data['items'][:10]:
     print(item['url'])
