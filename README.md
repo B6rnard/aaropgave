@@ -22,7 +22,7 @@ Projektet analyserer API’ens datastruktur og udvikler et værktøj eller scrip
 ## Programbeskrivelse
 
 ## rutediagram(mer)
-
+![image]()
 ## Rolle-fordeling
 
 ## Kilder og ressourcer
