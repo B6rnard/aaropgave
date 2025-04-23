@@ -10,11 +10,11 @@ Hvordan kan data fra FBI’s Most Wanted API gøres mere tilgængelige og anvend
 Projektet analyserer API’ens datastruktur og udvikler et værktøj eller script, der systematisk henter og organiserer informationerne. Resultatet præsenteres i en overskuelig og anvendelig form.
 
 ## Kravspecifikation
-| Menu   | der skal være en meny hvor personen kan vælge om de enten ville søge, se pdf fil eller ???    |
-|--------|-----------------------------------------------------------------------------------------------|
-| Search | de skal kunne søge efter en person eller nummer på person of få de væsentligste informationer |
-| PDF    | de skal kunne vises en pdf fil af den preson de har søgt efter                                |
-| ???    | ???                                                                                           |
+| Menu   | Der skal være en meny hvor personen kan vælge om de enten ville søge, se pdf fil eller ???    | Must have   |
+|--------|-----------------------------------------------------------------------------------------------|-------------|
+| Search | De skal kunne søge efter en person eller nummer på person of få de væsentligste informationer | Must have   |
+| PDF    | De skal kunne vises en pdf fil af den preson de har søgt efter                                | Must have   |
+| List   | List of available searches                                                                    | Nice to have|
 
 ### API
 "https://www.fbi.gov/wanted/api"
