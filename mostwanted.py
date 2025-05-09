@@ -78,8 +78,9 @@ while True:
                 scroll_y = 0
             for _, _, y_pos, url, url_rect in results:
                 if url_rect and url_rect.collidepoint(event.pos[0], event.pos[1] - scroll_y):
-                    copied_message = f"Copied to clipboard (not really): {url}"
+                    copied_message = f"Copied to clipboard: {url}"
                     copied_timer = pygame.time.get_ticks()
+# key input
         if event.type == pygame.KEYDOWN:
             if active:
                 if event.key == pygame.K_RETURN and user_text != last_search:
@@ -101,7 +102,7 @@ while True:
     # input box
     color = COLOR_ACTIVE if active else COLOR_INACTIVE
     pygame.draw.rect(screen, color, input_box, 2)
-    txt = user_text or 'Type warning_message...'
+    txt = user_text or 'Type a warning_message'
     screen.blit(font.render(txt, True, TEXT_COLOR), (input_box.x+5, input_box.y+5))
     # examples
     y0 = input_box.y + 50

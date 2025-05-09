@@ -24,11 +24,20 @@ Dette Python-program leverer et simpelt grafisk brugerinterface (GUI) ved hjælp
 
 
 ## rutediagram(mer)
-![image](![alt text](image.png))
-## Rolle-fordeling
-
+![alt text](image.png)
 ## Kilder og ressourcer
-
+https://docs.python-requests.org/en/latest/user/quickstart/#passing-parameters-in-urls  
+https://stackoverflow.com/questions/44610428/how-to-use-pygame-surface-scroll  
+https://www.pygame.org/docs/ref/surface.html  
+stackoverflow.com/questions/46390231/how-can-i-create-a-text-input-box-with-pygame?  
 ## AI
-
+chat har været brugt som inspiration til dele vi ikke har haft information om eller sad fast på, fx scroll feature og hvordan search virkede
+### AI dokumentation
+til search funktion:  
+brug prompt: hvordan ville du lave en search funktion til denne kode i pygame så det der bliver søgt erstatter prams (indsat kode)   
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)  
+til scroll:
+brugt prompt: hvordan ville du lave en scroll funktion til denne kode i pygame (indsat kode)
 ## Evaluering og vurdering
