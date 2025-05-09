@@ -22,7 +22,6 @@ Projektet analyserer API’ens datastruktur og udvikler et værktøj eller scrip
 ## Programbeskrivelse
 Dette Python-program leverer et simpelt grafisk brugerinterface (GUI) ved hjælp af Pygame til at søge i FBI's "Wanted"-database via deres offentlige API. Programmet henter de første fem matchende resultater baseret på en angivet advarselsbesked (warning_message) og viser titel og URL for hver ønsket person.
 
-
 ## rutediagram(mer)
 ![alt text](image.png)
 ## Kilder og ressourcer
@@ -40,4 +39,7 @@ brug prompt: hvordan ville du lave en search funktion til denne kode i pygame s�
 ![alt text](image-3.png)  
 til scroll:
 brugt prompt: hvordan ville du lave en scroll funktion til denne kode i pygame (indsat kode)
+## Test af programmet
+Stefan åbnede programmet og så et enkelt vindue med en tekstboks, eksempler under og en “Search”-knap. Han klikkede i boksen, skrev “WANTED FOR MURDER” og så teksten tydeligt. Eksemplerne viste, hvordan man skulle skrive. Han trykkede på “Search” og fik fem resultater med titel og URL, som han kunne rulle gennem med piletasterne. Da han klikkede en URL, kom beskeden “Copied to clipboard” frem, så han vidste, at klikket blev registreret. Da Stefan slukkede for nettet og søgte igen, fik han straks “Error fetching data” uden at programmet gik ned. Hele oplevelsen var hurtig og enkel dog sagede han at designet var for simpelt og lidt råt i det.
 ## Evaluering og vurdering
+Vi gik til opgaven med klare idéer om, at programmet skulle have et inputfelt, en søgeknap, en resultatliste og gerne ekstrafunktioner som scroll og clipboard-support. Vi fik hurtigt søgefunktionen og visningen af de fem første resultater på plads, men brugte for megen tid på komplekse og “nice-to-have” features som PDF-rendering, som vi til sidst droppede. Manglende opdeling i små delopgaver og løbende checkpoints gjorde, at vi ikke holdt styr på tiden og derfor ikke nåede at implementere ægte kopi-til-udklipsholder. Fremover skal vi prioritere kernefunktionalitet først, sætte faste statusmøder og dele arbejdet op i tydelige to-do-punkter, så vi kan holde fokus og samtidig nå flere af de ønskede features.
