@@ -20,9 +20,11 @@ Projektet analyserer API’ens datastruktur og udvikler et værktøj eller scrip
 "https://www.fbi.gov/wanted/api"
 
 ## Programbeskrivelse
+Dette Python-program leverer et simpelt grafisk brugerinterface (GUI) ved hjælp af Pygame til at søge i FBI's "Wanted"-database via deres offentlige API. Programmet henter de første fem matchende resultater baseret på en angivet advarselsbesked (warning_message) og viser titel og URL for hver ønsket person.
+
 
 ## rutediagram(mer)
-![image]()
+![image](![alt text](image.png))
 ## Rolle-fordeling
 
 ## Kilder og ressourcer
